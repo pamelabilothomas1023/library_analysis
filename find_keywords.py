@@ -23,7 +23,7 @@ def remove_stopwords(texts):
     return return_list
 
 if __name__ == '__main__':
-    path = "C://Users//pamel//Downloads//phd_data3//"
+    path = path = os.getcwd() + "\\"
     keywords = []
     new_keyword = ""
     while (new_keyword != "done"):
